@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- JS Mengunci Akses View-Source Code -->
+    <script language="javascript">
+        var message = "Akses Dikunci!";
+
+        function rtclickcheck(keyp) {
+            if (navigator.appName == "Netscape" && keyp.which == 3) {
+                alert(message);
+                return false;
+            }
+            if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+                alert(message);
+                return false;
+            }
+        }
+        document.onmousedown = rtclickcheck;
+    </script>
+
+    <title>EthicaLearn - eLearning</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../Logo/logo.png" width="30" height="30" class="d-inline-block align-text-top">
+                EthicaLearn
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../e-learning.html">eLearning</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../galeri/galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../kontak/kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../profil-tentang/profil.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dokumentasi
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../JS-referenc/js-massage/JS-message.html">JS Message</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../JS-referenc/js-looping/JS-looping.html">JS Looping</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../JS-referenc/js-event/JS-event.html">JS Event</a></li>
+                            <li><a class="dropdown-item" href="../JS-referenc/js-switch/JS-switch.html">JS
+                                    Switch/Kondisi</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="../login/login.html">JavaScript Login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a href="../login/login.html">
+                        <button class="btn btn-outline-warning ms-3 mb-1" type="button">Masuk</button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar-->
+
+    <!-- Profil - Tentang Kami -->
+    <div class="container profil text-center mt-5">
+        <img src="./profil.jpg" alt="Muhammad Faiz Aqil Fathoni" width="180" class="rounded-circle img-thumbnail">
+        <p style="font-size: 22px;" data-aos="fade-left">Mahasiswa | Programmer - Cybersecurity</p>
+    </div>
+    <div class="container mt-5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="50"
+        data-aos-offset="0">
+        <h5>Assalamu'alaikum Warahmatullahi Wabarakatuh</h5>
+        <p>Izinkan saya memperkenalkan diri</p>
+        <table>
+            <tr>
+                <td> Nama Lengkap</td>
+                <td> : *** </td>
+            </tr>
+
+            <tr>
+                <td> NIM </td>
+                <td> : *** </td>
+            </tr>
+
+            <tr>
+                <td> Fakultas </td>
+                <td> : *** </td>
+            </tr>
+
+            <tr>
+                <td> Kelas </td>
+                <td> : *** </td>
+            </tr>
+
+            <tr>
+                <td> Jenis Kelamin </td>
+                <td> : *** </td>
+            </tr>
+
+            <tr>
+                <td> Status </td>
+                <td> : *** </td>
+            </tr>
+
+            <tr>
+                <td> Perguruan Tinggi </td>
+                <td> : *** </td>
+            </tr>
+
+            <tr>
+                <td> Angkatan </td>
+                <td> : *** </td>
+            </tr>
+        </table>
+
+        <br>
+        <span>
+            <p class="pkonten">Saya adalah pemilik dari website ini, dan saya berasal
+                dari ***. Saya baru saja
+                memulai studi
+                di Perguruan Tinggi *** dengan mengambil bidang Teknologi Informasi. Saya
+                seorang Freelancer muda
+                dan sedang mencoba berbagai hal baru didunia industri, saya mempunyai team dan komunitas
+                Blockchain
+                dan sedang mengembangkan projek besar, saya berharap cepat atau lambat dapat terselesaikan tepat
+                waktu (＾▽＾) sekian dari saya,<br><br>Wassalamualaikum Warahmatullahi Wabarakatuh.
+            </p>
+        </span>
+    </div>
+    <!-- End -->
+
+    <!-- Footer -->
+    <div id="ftr">
+        <footer class="bg-dark text-white text-center mt-5 pt-4 pb-3">
+            All Right Reserved &copy 2022 by
+            <a href="../index.html" class="text-white fw-bold">EthicaLearn</a></p>
+        </footer>
+    </div>
+    <!-- End of Footer -->
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- AOS Source -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- GSAP Source -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script>
+        gsap.from('.profil img', {
+            duration: 1,
+            opacity: 0,
+            ease: "bounce",
+            y: -100
+        });
+    </script>
+</body>
+
+</html>

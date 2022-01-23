@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JS Mengunci Akses View-Source Code -->
+    <script language="javascript">
+        var message = "Akses Dikunci!";
+
+        function rtclickcheck(keyp) {
+            if (navigator.appName == "Netscape" && keyp.which == 3) {
+                alert(message);
+                return false;
+            }
+            if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+                alert(message);
+                return false;
+            }
+        }
+        document.onmousedown = rtclickcheck;
+    </script>
+
+    <title>EthicaLearn - eLearning</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg bg-transparent" style="z-index: 100;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./Logo/logo.png" width="30" height="30" class="d-inline-block align-text-top">
+                EthicaLearn
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="e-learning.html">eLearning</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galeri/galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./kontak/kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./profil-tentang/profil.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dokumentasi
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./JS-referenc/js-massage/JS-message.html">JS Message</a>
+                            </li>
+                            <li><a class="dropdown-item" href="./JS-referenc/js-looping/JS-looping.html">JS Looping</a>
+                            </li>
+                            <li><a class="dropdown-item" href="./JS-referenc/js-event/JS-event.html">JS Event</a></li>
+                            <li><a class="dropdown-item" href="./JS-referenc/js-switch/JS-switch.html">JS
+                                    Switch/Kondisi</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./login/login.html">JavaScript Login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a href="./login/login.html">
+                        <button class="btn btn-outline-warning ms-3 mb-1" type="button">Masuk</button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar-->
+
+    <!-- Artikel - Table -->
+    <section id="arTable">
+        <div class="container-fluid arTable">
+            <div class="container mt-5">
+                <div class="row justify-content-evenly text-white">
+                    <div class="col-sm-5">
+                        <!-- Artikel -->
+                        <h4 class="display-3">Survey</h4>
+                        <p>Berdasarkan survey yang telah terkonfirmasi dari banyaknya siswa-siswi di
+                            indonesia dan Survei ini dilaksanakan akhir tahun lalu, mulai 1 Desember 2021 hingga 10
+                            Januari 2022. Kami berhasil
+                            mengumpulkan jawaban dari 1.340 responden pelajar dari seluruh pelosok Indonesia. Survei ini
+                            berhasil menyingkap tren mata pelajaran yang paling disukai di kalangan siswa-siswi
+                            Indonesia.
+                            Selain itu, kita juga ingin melihat apakah sistem pembelajaran Daring selama ini menimbulkan
+                            perbedaan antara Daring dan
+                            Tatap Muka tentang pelajaran favorit dan sebaliknya pelajaran yang paling dibenci. Analisis
+                            tren ini
+                            diharapkan dapat memberikan wawasan bagi kita bersama tentang faktor yang membuat siswa/i
+                            tertarik
+                            atau antipati pada suatu bidang demi meningkatkan kualitas pembelajaran di Indonesia.</p>
+                        <!-- End of Artikel -->
+                    </div>
+                    <div class="col-sm-4" data-aos="zoom-in">
+                        <table class="table table-bordered">
+                            <tr class="frow">
+                                <th>Mata Pelajaran</th>
+                                <th>Persentase (%)</th>
+                            </tr>
+                            <tr>
+                                <td>Matematika</td>
+                                <td>8%</td>
+                            </tr>
+                            <tr>
+                                <td>IPA</td>
+                                <td>10%</td>
+                            </tr>
+                            <tr>
+                                <td>IPS</td>
+                                <td>15%</td>
+                            </tr>
+                            <tr>
+                                <td>Bahasa Indonesia</td>
+                                <td>20%</td>
+                            </tr>
+                            <tr>
+                                <td>Bahasa Inggris</td>
+                                <td>17%</td>
+                            </tr>
+                            <tr>
+                                <td>PKN</td>
+                                <td>10%</td>
+                            </tr>
+                            <tr>
+                                <td>Lainnya</td>
+                                <td>20%</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Artikel|Table -->
+
+    <!-- Gambar & Gambar Link | Card -->
+    <section id="gambar">
+        <div class="contaier text-white mt-5 mb-3">
+            <div class="row">
+                <div class="col">
+                    <h4 class="display-6 text-center">Gambar Ilustrasi</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card-group">
+                <div class="card">
+                    <img src="./img-card/10088.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Gambar</h5>
+                        <a href="https://openlibrary.org/" class="btn btn-info" target="_blank">Alt Link</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img-card/14884388.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Gambar Tanpa Link</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://getbootstrap.com" target="_blank">
+                        <img src="./img-card/7408.jpg" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Gambar Dengan Link</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Gambar -->
+
+    <!-- Link -->
+    <section id="link">
+        <div class="container-fluid tautan text-warning mt-1 mb-5">
+            <div class="container">
+                <p>
+                    Sumber: <a href="https://www.freepik.com" target="_blank"
+                        style="color:#31D2F2;">https://www.freepik.com</a>
+                </p>
+            </div>
+        </div>
+        <!-- Artikel -->
+        <div class="container text-white">
+            <div class="col-sm-12">
+                <h4 class="display-3">Apa Sih Manfaat Membaca?</h4>
+                <p>Buku merupakan sumber berbagai informasi yang dapat membuka wawasan kita tentang berbagai hal seperti
+                    ilmu pengetahuan, ekonomi, sosial, budaya, politik, maupun aspek-aspek kehidupan lainnya. Selain
+                    itu, dengan membaca, dapat membantu mengubah masa depan, serta dapat menambah kecerdasan akal dan
+                    pikiran kita.
+
+                    Tanpa kita sadari, manfaat membaca buku dapat memberikan banyak inspirasi bagi kita. Namun sayangnya
+                    kegiatan membaca buku akhir-akhir ini telah banyak diabaikan berbagai kalangan dengan alasan
+                    kesibukan, maupun karena adanya media yang lebih praktis untuk mendapatkan informasi seperti
+                    televisi, radio, maupun media internet.
+
+                    Berikut ini beberapa manfaat membaca buku yang bisa kita dapatkan selain mempercerdas otak.
+                    diantaranya:</p>
+
+                <ol>
+                    <li>Dapat Menstimulasi Mental</li>
+                    <p>Otak merupakan salah satu organ tubuh yang memrlukan latihan agar tetap kuat dan sehat
+                        seperti organ tubuh yang lainnya. Dengan membaca buku dapat menjaga otak agar bisa tetap
+                        aktif sehingga dapat melakukan fungsinya secara baik dan benar. Beberapa penelitian telah
+                        menunjukkan bahwa dengan membaca buku dapat merangsang mental bahkan dapat mencegah penyakit
+                        Alzheimer dan demensia.</p>
+                    <li>Dapat Mengurangi Stress</li>
+                    <p>Setelah seharian melakukan rutinitas harian yang melelahkan, tak jarang hal tersebut dapat memicu
+                        timbulnya stress. Dengan melakukan kegiatan membaca yang bisa dilakukan selama beberapa menit
+                        dapat membantu menekan perkembangan hormon stress seperti hormon kortisol. Dengan membaca dapat
+                        membuat pikiran lebih santai sehingga hal tersebut dapat membantu menurunkan tingkat stress
+                        hingga 67%.
+
+                        Selain relaksasi, dengan membaca buku dapat membawa kedamaian batin serta ketenangan yang sangat
+                        besar. Membaca dapat menurunkan tekanan darah serta telah terbukti membantu orang yang menderita
+                        gangguan mood tertentu dan penyakit mental ringan. Inilah manfaat membaca buku yang banyak orang
+                        abaikan, banyak orang beanggapan bahwa membaca buku justru membuat otak terus bekerja dan
+                        menimbulkan stres, padahal manfaat membaca buku adalah mengurangi stres.</p>
+                    <li>Menambah Wawasan dan Pengetahuan</li>
+                    <p>Dengan membaca buku dapat mengisi kepala kita tentang berbagai macam informasi baru yang selama
+                        ini belum kita ketahui yang kemungkinan besar hal tersebut dapat berguna bagi kita nantinya.
+                        Semakin banyak pengetahuan yang kita miliki, maka kita akan lebih siap untuk menghadapi
+                        tantangan hidup baik dimasa sekarang maupun di masa-masa yang akan datang.
+
+                        Selain itu, ilmu pengetahuan merupakan hal yang sangat berharga yang tidak pernah dapat hilang
+                        meskipun kita kehilangan hal-hal lain didunia ini, seperti harta, benda, maupun yang lainnya.
+                        Cerita maupun ide-ide yang tertuang dalam sebuah buku yang kita baca dapat membantu untuk
+                        membuka jalan pikiran kita untuk lebih mengenal dunia lain, mendapatkan pemahama yang lebih dari
+                        sebelumnya.</p>
+                    <li>Dapat Menambah Kosakata</li>
+                    <p>Semakin banyak melakukan kegiatan membaca buku, maka akan semakin banyak kita mendapatkan
+                        penjelasan mengenai hal-hal yang belum kita ketahui, serta dapat menambah jumlah kosakata
+                        yang bisa kita gunakan dalam kehidupan keseharian kita. Hal ini tentu saja dapat membantu
+                        bagi kita untuk dapat mengartikulasikan, membantu menyampaikan pendapat dengan bahasa yang
+                        lugas, serta dapat menambah rasa percaya diri pada saat berbicara dengan orang lain.</p>
+                    <li>Dapat Meningkatkan Kualitas Memori</li>
+                    <p>Dengan membaca buku dapat memberikan andil untuk meningkatkan kualitas otak kita dalam proses
+                        mengingat, berbagai macam hal yang telah kita baca. Misalnya saja karakter, latar belakang,
+                        ambisi, sejarah, maupun berbagai macam unsur atau plot dari setiap alur cerita. Setiap memori
+                        dapat membantu untuk menempa jalur otak serta memperkuatnya. Selain itu juga dengan melakukan
+                        kegiatan membaca dapat menstabilkan suasana hati seseorang.
+
+                        Dengan membaca buku dapat membantu latihan otak secara maksimal daripada hanya menonton televisi
+                        atau mendengarkan radio. Seorang presiden direktur dari riset Haskins Laboratories yang bernama
+                        Ken Pugh, PhD mengatakan bahwa kebiasaan membaca buku dapat memacu otak untuk berpikir dan
+                        berkonsentrasi.</p>
+                    <li>Melatih Ketrampilan untuk Berfikir dan Menganalisa</li>
+                    <p>Manfaat membaca buku dapat melatih otak untuk dapat berfikir lebih kritis maupun menganalisis
+                        adanya masalah yang tersaji dalam apa yang kita baca. Kita seperti mendapatkan akses atau jalan
+                        untuk dapat masuk ke dalam alur cerita dan membantu dalam penyelesaian cerita tersebut. Hal
+                        tersebut dapat membantu mengembangkan karakter kita di masa mendatang.</p>
+                    <li>Dapat Meningkatkan Fokus dan Konsentrasi</li>
+                    <p>Pada saat membaca buku, kita dapat melatih otak untuk lebih fokus dan berkonsentrasi pada apa
+                        yang kita baca. Hal ini akan melatih kita untuk dapat juga lebih fokus dalam melakukan berbagai
+                        macam kegiatan atau rutinitas keseharian.</p>
+                    <li>Melatih untuk Dapat Menulis Dengan Baik</li>
+                    <p>Dengan bertambahnya kosakata yang kita miliki dari kegiatan membaca buku, otomatis dapat membantu
+                        kita untuk dapat membuat karya tulis sendiri dengan bahasa yang sebaik atau bahkan bisa lebih
+                        baik dari apa yang telah kita baca sebelumnya.</p>
+                    <li>Dapat Memperluas Pemikiran Seseorang</li>
+                    <p>Seseorang yang gemar membaca buku telah dilaporkan memiliki tingkat kreativitas yang lebih tinggi
+                        daripada orang-orang yang tidak atau kurang gemar membaca. Dengan kegiatan membaca buku, kita
+                        bisa berbagi pengalaman dengan orang lain tentang berbagai macam hal, yang nantinya bisa kita
+                        jadikan sebagai suatu bahan pertimbangan untuk dapat memutuskan sesuatu.</p>
+                    <li>Dapat Meningkatkan Hubungan Sosial</li>
+                    <p>Kegiatan gemar membaca buku ini juga mempengaruhi aspek kehidupan sosial manusia, dimana ia bisa
+                        lebih mengenal berbagai macam karakteristik, budaya, maupun kehidupan sosial suatu masyarakat.
+                        Sehingga apabila suatu saat ia berkunjung ke tempat tersebut, ia telah tahu bagaimana cara
+                        bersikap untuk menghormati adat serta kebudayaan mereka.</p>
+                </ol>
+
+                <p>Tips Membaca Buku Secara Efektif:</p>
+                <ul>
+                    <li>Pilihlah waktu luang yang tepat untuk membaca buku, misalnya saja saat malam hari menjelang
+                        tidur.</li>
+                    <li>Pilih posisi yang nyaman pada saat membaca buku, misalnya dengan duduk di kursi. Selalu atur
+                        jarak antara mata dengan buku, yaitu sekitar 25 hingga 30 cm.</li>
+                    <li>Menentukan tujuan membaca buku untuk mendapatkan hasil yang optimal. Seseorang yang membaca buku
+                        tanpa tujuan, sama saja dengan seorang pengembara yang tak tahu arah.</li>
+                    <li>Sebelum membaca sebaiknya kita mengetahui gambaran besar tentang isi buku, hal tersebut akan
+                        mempermudah konsentrasi pada saat membaca.</li>
+                    <li>Selalu fokus pada apa yang kita baca.</li>
+                    <li>Menjadi pembaca yang aktif, dalam artian kita bisa melakukan dialog dengan buku. Misalnya saja
+                        kita bisa membuat berbagai pertanyaan yang nantinya akan kita temukan jawabannya di dalam buku
+                        yang kita baca.</li>
+                    <li>Mencatat hal-hal penting yang telah kita baca. Hal ini akan membantu kita untuk mengingat
+                        intisari dari buku yang telah kita baca.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- End of Artikel -->
+    </section>
+    <!-- End of Link -->
+
+    <!-- Audio -->
+    <section id="audio">
+        <div class="container text-white mt-5">
+            <div class="col">
+                <h4 class="display-6 text-center">Audio</h4>
+            </div>
+        </div>
+        <div class="audio mt-3" style="display: flex; justify-content: center;">
+            <audio controls>
+                <source src="./audio/mytrack.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </section>
+    <!-- End of Audio -->
+
+    <!-- Video Dan Embed YT -->
+    <section id="video">
+        <div class="contaier text-white mt-5">
+            <div class="row">
+                <div class="col">
+                    <h4 class="display-6 text-center">Video & Embed Video</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid img mt-3 mb-5">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <iframe height="350" src="https://www.youtube.com/embed/LfI8sxSFtuE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">Embed Video YouTube</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <video height="350" poster="./bgImage/poster.jpg" controls>
+                                <source src="./video/falling-in-reverse.mp4" type="video/mp4">
+                            </video>
+                            <div class="card-body">
+                                <h5 class="card-title">Video Lokal</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End -->
+
+    <!-- Footer -->
+    <footer class="bg-transparent text-white text-center pt-4 pb-3">
+        All Right Reserved &copy 2022 by
+        <a href="index.html" class="text-white fw-bold">EthicaLearn</a></p>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- AOS Source -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- GSAP Source -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script>
+        gsap.from('.navbar', {
+            duration: 1,
+            opacity: 0,
+            ease: "bounce",
+            y: -100
+        });
+    </script>
+</body>
+
+</html>
+
+<style>
+    html,
+    body {
+        height: 100%;
+        /* overflow: hidden; */
+        background: #0a1428;
+    }
+
+    /* body:after {
+        content: '';
+        height: 500px;
+        width: 500px;
+        position: fixed;
+        bottom: 0;
+        left: 0px;
+        background: rgba(218, 51, 252, 0.469);
+        background: linear-gradient(50deg,
+                rgba(218, 51, 252, 0.455) 0%,
+                rgba(40, 225, 253, 0.319) 50%,
+                rgba(43, 253, 165, 0.449) 100%);
+        text-align: center;
+        border-radius: 100%;
+        animation-name: bounce-1;
+        animation-timing-function: ease-in;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        filter: blur(100px);
+    } */
+
+    body:before {
+        content: '';
+        height: 500px;
+        width: 500px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: rgb(218, 51, 252);
+        background: linear-gradient(50deg,
+                rgba(218, 51, 252, 0.483) 0%,
+                rgba(40, 225, 253, 0.503) 50%,
+                rgba(43, 253, 165, 0.496) 100%);
+        text-align: center;
+        border-radius: 100%;
+        animation-name: bounce-1;
+        animation-timing-function: ease;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        filter: blur(100px);
+    }
+</style>

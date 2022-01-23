@@ -1,0 +1,239 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h2 {
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.main {
+    width: 50%;
+    padding: 0;
+    margin: 12% auto;
+    display: block;
+}
+
+/* Penganturan Pada Menu Login */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #4f4f4f;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+label {
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+center {
+    font-size: 32px;
+}
+
+/* Pengaturan Pada Bagian sukses.html Mengatur Huruf*/
+.tlog {
+    text-align: center;
+    /*membuat semua huruf menjadi kapital*/
+    text-transform: uppercase;
+    color: white;
+}
+
+.link {
+    color: #ffc107;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.link:hover {
+    color: #31D2F2;
+}
+
+/* Penyesuaian Footer */
+#ftr {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Memasang Background di Menu login.html */
+.logbody {
+    margin: 0;
+    padding: 0;
+    background: url("./bgImage/bglog.jpg");
+    background-size: cover;
+    background-position: auto;
+    background-attachment: fixed;
+}
+
+/* Memberi Bentuk Persegi Pada Kotak Login */
+.box {
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+    border: 2px solid #31D2F2;
+    border-radius: 10px;
+}
+
+.box:hover {
+    border: 2px solid #FFC107;
+}
+
+.box h3 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+/*  Menghias Tombol Menu Login */
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #31D2F2;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 280px;
+    border-color: #FFC107;
+}
+
+.box div {
+    width: 100px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #FFC107;
+    padding: 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+
+.box div:hover {
+    background: #FFC107;
+
+}
+
+/* Konfig Komentar Pada Box Login */
+.note {
+    color: red;
+}
+
+#nts {
+    color: white;
+}
+
+input[type="text"] {
+    width: 250px;
+}
+
+/* Pengaturan Background Menu Looping */
+#bgloop {
+    margin-bottom: 20%;
+}
+
+.message {
+    margin-top: 60px;
+}
+
+.event {
+    margin-top: 60px;
+}
+
+.looping {
+    margin-top: 60px;
+}
+
+.switch {
+    margin-top: 60px;
+}
+
+/* Pengaturan Table */
+.arTable {
+    margin-top: 5%;
+}
+
+.table {
+    text-align: center;
+    border: 2px solid #31D2F2;
+    color: white;
+}
+
+.table:hover {
+    border: 2px solid lightseagreen;
+    ;
+}
+
+.frow {
+    background: darkslateblue;
+}
+
+/* Opsi Card Img */
+.card-body h5 {
+    text-align: center;
+}
+
+/* Tombol Back Menu Login */
+.back {
+    color: #31D2F2;
+    text-decoration: none;
+}
+
+.back:hover {
+    color: yellowgreen;
+
+}
+
+/* Menu Galeri - Mengatur Margin */
+.galeri {
+    margin-top: 100px;
+}
+
+/* Menu Profil Bagian Foto Thumbnail Mengatur Margin */
+.profil,
+.img-thumbnail {
+    margin-top: 60px;
+}
+
+.profil img {
+    border: solid black;
+}
+
+/* Profil Span Teks Konten */
+.pkonten {
+    margin-bottom: 120px;
+}
